@@ -1,0 +1,87 @@
+body{
+    background-color: #444444;
+}
+.contenedor-prin{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    height: 97vh;
+    background-color: #444444;
+    margin: 0;
+}
+.iconos{
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 5px;
+    margin-top: auto;
+    padding: 5px;
+}
+.btn{
+    margin: 5px;
+    height: 7vh;
+    width: 7vw;
+    background-color: #222222;
+    color: white;
+    text-overflow: clip;
+}
+.tablon{
+    background-color: #777777;
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+}
+.tablon-importantes{
+    padding: 5px;
+    background-color: #BBBBBB;
+    height: 45%;
+    margin: 15px;
+}
+.tablon-otros{
+    height: 50%;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.tablon-medio{
+    background-color: #BBBBBB;
+    height: 95%;
+    width: 50%;
+    margin-right: 5px;
+}
+.tablon-bajo{
+    background-color: #BBBBBB;
+    height: 95%;
+    width: 50%;
+    margin-left: 5px;
+}
+.tablon-linea{
+    display: flex;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    border: 1px solid #FF000088;
+    border-radius: 5px;
+    background-color: #FF000088;
+}
+.tablon-linea2{
+    display: flex;
+    width: 90%;
+    margin: 5%;
+    border: 1px solid #00000088;
+    border-radius: 5px;
+    background-color: #FFFFFF55;
+}
+.tablon-titulo{
+    margin-left: 5px;
+    margin-right: auto;
+}
+.tablon-autor{
+    margin-left: auto;
+    margin-right: 5px;
+}
+.tablon-prioridad{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 10vw;
+    text-align: center;
+}

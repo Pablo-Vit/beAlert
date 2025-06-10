@@ -1,0 +1,31 @@
+body {
+    background-color: #555555;
+    display: grid;
+}
+
+.container {
+    margin-top: 5%;
+    height: 40vh;
+    width: 40vw;
+    min-width: 200px;
+    min-height: 120px;
+    max-width: 500px;
+    max-height: 300px;
+    display: grid;
+    justify-self: center;
+    justify-content: space-evenly;
+    background-color: #AAAAAA;
+}
+
+.inp {
+    margin: 0;
+}
+
+.banner {
+    min-height: 5vh;
+    min-width: 15vw;
+    margin-top: 10%;
+    height: 10vh;
+    width: 30vw;
+    justify-self: center;
+}
